@@ -12,6 +12,19 @@ The system aligns with **Zero Trust principles**, ensuring every access attempt 
 
 ## System Diagram & Prototype
 
+<p align="center">
+  <img src="docs/system_diagram.png" alt="System Diagram" width="560">
+</p>
+<p align="center">
+  <em>End-to-end flow from camera to access control and logging.  
+<p align="center">
+  <img src="docs/physical_system.png" alt="Hardware Prototype" width="560">
+</p>
+
+<p align="center">
+  <em>Hardware prototype with Kwikset lock controlled over UART.</em>
+</p>
+
 
 ## Features
 - **Two-Factor Authentication:** Facial recognition + credential entry (username/password).  
