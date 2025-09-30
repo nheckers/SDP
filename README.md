@@ -1,5 +1,7 @@
 # Zero Trust Dual Authentication System  
-*Senior Design Project – Cal Poly Pomona (ECE)*
+*Senior Design Project – Cal Poly Pomona (ECE)*  
+
+**Tech Stack:** Python • OpenCV • dlib • SQLite • UART (Kwikset)
 
 ![Python](https://img.shields.io/badge/python-3.9-blue) 
 ![OpenCV](https://img.shields.io/badge/OpenCV-4.x-green) 
@@ -53,7 +55,7 @@ Laptop (Python, OpenCV, dlib)
 
 ## Files Not Included
 For security and privacy reasons, the following files are not tracked in this repo:  
-- **Images/** → Facial images for recognition. Create your own dataset structured by user folders.  
+- **Images/** → Facial images for recognition. Add your own face images under a folder named `Images/`  
 - **Databases (`*.db`)** → Generated automatically at runtime.  
 - **Model File** → Download `shape_predictor_68_face_landmarks.dat` (~95MB) from the [dlib model zoo](http://dlib.net/files/shape_predictor_68_face_landmarks.dat.bz2).  
 - **Secrets** → `serviceAccountKey.json` and other credentials must remain private.  
